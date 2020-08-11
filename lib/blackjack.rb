@@ -30,7 +30,7 @@ def initial_round
 end
 
 def hit? (card_total)
-  puts prompt_user
+  p prompt_user
   user_input = get_user_input
   if user_input == 'h'
     deal_card
