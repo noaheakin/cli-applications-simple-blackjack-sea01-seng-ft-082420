@@ -34,8 +34,7 @@ def hit? (card_total)
   user_input = get_user_input
   #binding.pry
   if user_input != 'h' && user_input != 's'
-    prompt_user
-    invalid_command
+    p invalid_command
   elsif user_input == 'h'
     card_total += deal_card
   end
