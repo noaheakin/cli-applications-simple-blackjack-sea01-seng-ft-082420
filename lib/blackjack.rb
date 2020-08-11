@@ -38,8 +38,8 @@ def hit? (card_total)
     card_total
   else
     invalid_command
+    card_total
     prompt_user
-    card_total 
   end
   card_total
 end
