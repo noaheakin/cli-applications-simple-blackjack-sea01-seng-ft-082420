@@ -30,7 +30,7 @@ def initial_round
 end
 
 def hit? (card_total)
-  p prompt_user
+  puts prompt_user
   user_input = get_user_input
   #binding.pry
   if user_input != 'h' && user_input != 's'
